@@ -1,5 +1,8 @@
 Start the project:
-django-admin startproject
+django-admin startproject nomePrjeto .
 
 Start app on site django
 django-admin startapp
+
+To open the django development server
+python manage.py runserver
