@@ -18,3 +18,6 @@ ssh-keygen
 Add the SSH path to the project
 git remote add origin "SSH address from your github repository"
 
+
+To set the main branch to the git commit and push
+git push --set-upstream origin main
