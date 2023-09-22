@@ -1,0 +1,20 @@
+To configure your name:
+git config --global user.name "Maya Florentino da Silva"
+
+Email:
+git config --global user.email "mayaflorentinodasilva@gmail.com"
+
+Branch:
+git config --global init.defaultBranch main
+
+To start the project:
+git init
+
+
+Create a SSH key pair in C:\Users\mayaf\.ssh
+ssh-keygen
+
+
+Add the SSH path to the project
+git remote add origin "SSH address from your github repository"
+
