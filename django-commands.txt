@@ -1,0 +1,5 @@
+Start the project:
+django-admin startproject
+
+Start app on site django
+django-admin startapp
