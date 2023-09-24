@@ -6,3 +6,6 @@ django-admin startapp
 
 To open the django development server
 python manage.py runserver
+
+To create a app on Django web aplication
+python manage.py startapp nomeDoApp
