@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # We need to declare all apps here!
+    'recipes',
 ]
 
 MIDDLEWARE = [
@@ -54,7 +56,11 @@ ROOT_URLCONF = 'projeto.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            # To add more than one templates folder to django
+            # need to set here in the following format:
+            # BASE_DIR / 'dirPath'
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
