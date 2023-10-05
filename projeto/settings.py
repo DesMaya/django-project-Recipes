@@ -57,6 +57,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
+            BASE_DIR / 'base_templates'
             # To add more than one templates folder to django
             # need to set here in the following format:
             # BASE_DIR / 'dirPath'
