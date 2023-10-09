@@ -124,6 +124,12 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+# Create the path to others static files wich is not include in
+# app/static folder.
+STATICFILES_DIRS = [
+    BASE_DIR / 'base_static',
+]
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
