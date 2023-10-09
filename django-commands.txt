@@ -9,3 +9,8 @@ python manage.py runserver
 
 To create a app on Django web aplication
 python manage.py startapp nomeDoApp
+
+To put all static files in a one root use:
+this command require the STATIC_ROOT config before
+his use.
+python manage.py collectstatic
