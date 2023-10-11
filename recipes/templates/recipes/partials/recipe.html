@@ -5,13 +5,13 @@
     </div>
 
     <div class="recipe-title-container">
-        <h2 class="recipe-title">Birthday Cake</h2>
+        <h2 class="recipe-title"> {{ recipe.title }} </h2>
     </div>
 
     <div class="recipe-author">
         <span class="recipe-author-item">
             <i class="fas fa-user"></i>
-            Maya Florentino
+            {{ recipe.author.first_name }} {{ recipe.author.last_name }}
         </span>
 
         <span class="recipe-author-item">
