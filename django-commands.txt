@@ -20,3 +20,10 @@ python manage.py makemigrations
 
 This command saves/migrate the aplication data to django db
 python manage.py migrate
+
+Create a super user to acess de django admin
+python manage.py createsuperuser
+    the django will as for you some data
+    username: yourUser
+    email: yourEmail
+    password: yourPassword
