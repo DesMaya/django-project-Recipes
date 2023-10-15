@@ -14,3 +14,9 @@ To put all static files in a one root use:
 this command require the STATIC_ROOT config before
 his use.
 python manage.py collectstatic
+
+This command create the migrations
+python manage.py makemigrations
+
+This command saves/migrate the aplication data to django db
+python manage.py migrate
