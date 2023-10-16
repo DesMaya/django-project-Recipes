@@ -27,3 +27,7 @@ python manage.py createsuperuser
     username: yourUser
     email: yourEmail
     password: yourPassword
+
+
+Open the Django Shell
+python manage.py shell
