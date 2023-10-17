@@ -16,7 +16,7 @@ urlpatterns = [
         name="category"
     ),
     path(
-        'recipes/<int:recipe_id>/',
+        'recipes/<int:id>/',
         views.recipes,
         name="recipe"
     )

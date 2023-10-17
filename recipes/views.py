@@ -27,9 +27,11 @@ def category(request, category_id):
     })
 
 
-def recipes(request, recipe_id):
-    recipe = Recipe.objects.filter(id=recipe_id).first()
-    print(recipe)
+def recipes(request, id):
+    recipe = Recipe.objects.filter(
+        pk=id,
+        is_published=True
+    ).first()
     return render(request, 'recipes/pages/recipe-view.html', context={
         'recipe': recipe,
         'is_detail_page': True
