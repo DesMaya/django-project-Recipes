@@ -1,6 +1,18 @@
 from .test_recipe_base import RecipeTestBase
 from django.urls import reverse, resolve  # type: ignore
 from recipes import views
+# from unittest import skip
+
+
+# Esse comando serve para pular o teste, seja todos os testes
+# da classe ou apenas o teste em si que colocar o skip
+# @skip("Estou pulando todos os testes para testar rs")
+
+
+# Esse comando serve para forçar que o teste falhe
+# e logo em seguida exiba a mensagem passada como
+# parâmetro
+# self.fail('')
 
 
 class RecipeViewsTest(RecipeTestBase):
