@@ -1,0 +1,17 @@
+Para executar os testes com o coverage e ignorar a pasta venv
+se utiliza o seguinte comando
+
+coverage run --omit='*/venv/*' -m pytest
+
+
+Alterando as configurações no .coveragerc na raiz do projeto
+permite executar o condigo de forma mais simples sem precisar
+dizer o que precisa ser omitido em toda chamada
+
+coverage run -m pytest
+
+
+Para pegar o relátorio gerado pelo coverage em html se utiliza
+o seguinte comdando
+
+coverage html
